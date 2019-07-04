@@ -1,0 +1,5 @@
+#!/bin/bash
+latex Relatório.tex
+dvips -o Relatório.pdf .dvi Relatório.dvi
+ps2pdf Relatório.pdf .ps
+gio open Relatório.pdf 
